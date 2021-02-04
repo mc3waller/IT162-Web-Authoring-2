@@ -16,7 +16,7 @@ form > div {
 }
 
 input {
-  width: 350px;
+  width: 300px;
   height: 30px;
   margin-top: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,7 +24,7 @@ input {
 }
 
 textarea {
-  width: 350px;
+  width: 300px;
   height: 175px;
   margin-top: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -84,9 +84,12 @@ END reCAPTCHA STYLES
 =========================================== */
 
 /* keeps form from bunching up to left */
-@media all and (min-width:501px){
+@media all and (min-width:501px) {
   div.wrapper form {
-      margin-left:22.8px;
-
+    margin-left:22.8px;
   }
+
+  /* form > div {
+    margin: 0em;
+  } */
 }
