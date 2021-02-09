@@ -1,6 +1,5 @@
 <?php include('includes/header.php'); ?>
-            <!-- LEFT COLUMN CONTENT START -->
-                <h2 class="pageID">Main Column</h2>
+
             </section>
             <!-- END LEFT COLUMN -->
 

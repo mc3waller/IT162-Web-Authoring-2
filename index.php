@@ -1,6 +1,5 @@
 <?php include('includes/header.php'); ?>
-            <!-- LEFT COLUMN CONTENT START -->
-                <h2 class="pageID">Welcome</h2>
+
                 <img src="images/desktop.jpg" class="desktop" alt="Malik Waller" />
                 <img src="images/phone.jpg" class="phone" alt="Malik Waller" />
 

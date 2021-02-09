@@ -60,12 +60,12 @@ a:hover {
     color: hsl(0, 50%, 35%);
 }
 
-/* .logo {
-    color:red;
-    margin-left:1%;
-    text-shadow:1px 1px #ccc;
-    font-size:1.25em;
-} */
+.logo {
+    color: hsl(0, 50%, 47%);
+    margin-left: 1%;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 1.25em;
+}
 
 /* Embed Responsively Rules! */
 div.embed-container {
