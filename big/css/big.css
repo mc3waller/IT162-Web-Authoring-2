@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color:#ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../images/background1.jpeg');
+}
+
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  
+main.wrapper {
+    background-color: rgb(37, 37, 37);
+    overflow:auto;
+
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 4px rgb(22, 22, 22);
+
+    border: 2px solid black;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 6px -6px black;
+    -moz-box-shadow: 0 6px 6px -6px black;
+    box-shadow: 0 6px 6px -6px black;
+
+    line-height: 1.5em;
+}
+
+header > h1, section, aside, footer {
+    padding: 10px;
+}
+
+/* h1:not(header >h1), h2, h3, h4, h5, h6 {
+    color: gold;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(170, 136, 83);
+}
+
+h1 > a {
+    text-decoration: none;
+    color: rgb(170, 136, 83);
+}
+
+h1 > a:hover {
+    text-decoration: none;
+    color: rgb(170, 136, 83);
+}
+
+a {
+    color: hsl(0, 50%, 47%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(0, 50%, 35%);
+}
+
+.logo {
+    color: hsl(0, 50%, 47%);
+    margin-left: 1%;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 1.25em;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+ /* ========================================
+START Global Embed Responsively Rules!
+ =========================================== */
+
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.embed-container.agenda-view {
+    display:none;
+}
+
+ /* ========================================
+END Global Embed Responsively Rules!
+ =========================================== */
+
+
+
+footer {
+    clear:both;
+    text-align: center;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES
+=========================================== */
+
+/* ========================================
+DESKTOP
+=========================================== */
+
+@media all and (min-width:1400px) {
+	
+    main.wrapper {
+         width:70%;
+         margin:auto;
+     }
+ 
+     section {
+         width:65%;
+         float:left;
+     }
+     
+      aside {	
+         width:34%;
+         float:right;
+     }
+             
+     img.desktop {
+         float:left;
+         width:50%;
+         display:inline-block;
+ 
+         margin-right: 10px;
+         border: 1px solid black;
+         box-shadow: 0 10px 10px -10px rgb(0, 0, 0);
+     }
+     
+     img.tablet, img.phone {
+            display:none;
+         }  
+     
+     /* Change background color of navigation on selected page */
+     nav li a.selected {
+         background-color: hsl(0, 50%, 47%);
+         color: rgb(221, 221, 221);
+        }
+ }
+ 
+ 
+
+ /* ========================================
+ TABLET
+ =========================================== */
+ 
+ @media all and (min-width:737px) and (max-width:1399px) {
+     
+     section {
+         width:60%;
+         float:left;
+     }
+     
+     aside {	
+         width:39%;
+         float:right;
+     }
+     
+     img.tablet {
+         width:100%;
+         display:inline-block;
+ 
+         margin-right: 5px;
+ 
+         border: 1px solid black;
+         box-shadow: 0 10px 10px -10px rgb(0, 0, 0);
+     }
+     
+     img.desktop, img.phone {
+            display:none;
+     }  
+     
+     
+     /* Change background color of navigation on selected page */
+     nav li a.selected {
+         background-color: hsl(0, 50%, 47%);
+         color: rgb(221, 221, 221);
+     }
+ }
+ 
+ 
+
+ /* ========================================
+ PHONE
+ =========================================== */
+ 
+ @media all and (max-width:736px) {
+     
+     img.phone {
+         width:100%;
+         display:inline-block;
+ 
+         margin-right: 5px;
+         border: 1px solid black;
+         box-shadow: 0 10px 10px -10px rgb(0, 0, 0);
+     }
+     
+     img.tablet, img.desktop {
+            display:none;
+     }
+ }
+
+
+
+ /* ========================================
+ "PHAT PHONE RULES"
+ =========================================== */
+
+@media all and (max-width:860px) {
+    /* div.wrapper {
+        background-color:blue;
+    } */
+    
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display:none;
+    }
+}
