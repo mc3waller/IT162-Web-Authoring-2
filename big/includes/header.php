@@ -1,4 +1,4 @@
-<?php include 'config.php' ?>
+<?php include 'big-config.php' ?>
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -34,7 +34,6 @@
                                 <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
                             </ul>
                         </li>
-                        <li><a href="shoppingcarts.php"><span><i class="fa fa-fw fa-shopping-basket"></i> Shopping Carts</span></a></li>
                         <li><a href="siteapp.php"><span><i class="fa fa-fw fa-html5"></i> Site vs App</span></a></li>
                         <li><a href="webcam.php"><span><i class="fa fa-fw fa-eye"></i> Web Cam</span></a></li>
                     </ul>

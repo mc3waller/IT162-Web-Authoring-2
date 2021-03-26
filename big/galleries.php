@@ -11,5 +11,4 @@
                 <p>Add citation here</p>
             </aside>
             <!-- END RIGHT COLUMN -->
-
 <?php include('includes/footer.php'); ?>

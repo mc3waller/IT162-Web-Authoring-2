@@ -8,5 +8,4 @@
                 <h3>Side Column</h3>
             </aside>
             <!-- END RIGHT COLUMN -->
-
 <?php include('includes/footer.php'); ?>

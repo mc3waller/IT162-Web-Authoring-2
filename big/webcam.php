@@ -1,13 +1,16 @@
 <?php include('includes/header.php'); ?>
-                <p>iframe two different kinds of webcams onto this page. Left column will be a live youtube video.</p>
+            <div class="embed-container">
+                <p>iframein a responsive live youtube video. Left column will be a live youtube video. Suggested: live earth, cats or dogs.</p>
+            </div>
             </section>
             <!-- END LEFT COLUMN -->
 
             <!-- START RIGHT COLUMN -->
             <aside>
-                <h3>DoT Camera</h3>
-                <p>Left column will be a live Dept. of Transportation video that comes from a different web page.</p>
+                <h3>Name of DoT Camera</h3>
+                <div class="embed-container">
+                    <p>iframe in a refreshing web page, Saras will demonstrate how to create.</p>
+                </div>
             </aside>
             <!-- END RIGHT COLUMN -->
-
 <?php include('includes/footer.php'); ?>
