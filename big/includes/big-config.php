@@ -23,9 +23,9 @@ switch(THIS_PAGE) {
     break;
 
     case 'flexbox.php':
-        $title = "Flexbox Research";
+        $title = "Flexbox";
         $logo = 'fa-cube';
-        $PageID = 'Flexbox Research';
+        $PageID = 'Flexbox';
     break;
 
     case 'galleries.php':
@@ -41,15 +41,15 @@ switch(THIS_PAGE) {
     break;
 
     case 'map.php':
-        $title = "Google Map";
+        $title = "Responsive Google Map";
         $logo = 'fa-map-o';
-        $PageID = 'Google Map';
+        $PageID = 'Embeded Responsive Google Map';
     break;
 
     case 'youtube.php':
-        $title = "YouTube";
+        $title = "YouTube Video";
         $logo = 'fa-youtube-square';
-        $PageID = 'YouTube';
+        $PageID = 'Accessibility Fundamentals with Rob Dodson';
     break;
 
     case 'siteapp.php':
@@ -59,9 +59,9 @@ switch(THIS_PAGE) {
     break;
 
     case 'webcam.php':
-        $title = "Webcam";
+        $title = "Live Webcam";
         $logo = 'fa-eye';
-        $PageID = 'Webcam';
+        $PageID = 'NASA Earth From Space - Earth Viewing cameras ISS feed';
     break;
 
     default:

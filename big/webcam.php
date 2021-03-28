@@ -1,15 +1,16 @@
 <?php include('includes/header.php'); ?>
             <div class="embed-container">
-                <p>iframein a responsive live youtube video. Left column will be a live youtube video. Suggested: live earth, cats or dogs.</p>
+                <iframe src='https://www.youtube.com/embed/DDU-rZs-Ic4' frameborder='0' allowfullscreen></iframe>
             </div>
             </section>
             <!-- END LEFT COLUMN -->
 
             <!-- START RIGHT COLUMN -->
             <aside>
-                <h3>Name of DoT Camera</h3>
+                <h3>Seattle DoT Traffice Camera</h3>
+                <p>Broadway & James St</p>
                 <div class="embed-container">
-                    <p>iframe in a refreshing web page, Saras will demonstrate how to create.</p>
+                    <iframe src="//content.jwplatform.com/players/MEDIAID-DFRTA8HH.html" width="320" height="260" frameborder="0" scrolling="auto"></iframe>
                 </div>
             </aside>
             <!-- END RIGHT COLUMN -->
